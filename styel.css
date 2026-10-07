@@ -1,0 +1,73 @@
+* {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background: #f3f5fa;
+            margin: 0;
+            padding: 25px 15px;
+            color: #222;
+        }
+        .container {
+            max-width: 750px;
+            margin: auto;
+        }
+        h1 {
+            text-align: center;
+            color: #3155a4;
+        }
+        .intro {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .card {
+            background: white;
+            padding: 22px;
+            margin-bottom: 20px;
+            border-radius: 12px;
+            box-shadow: 0 3px 12px #0000000d;
+        }
+        h2 {
+            color: #3155a4;
+            font-size: 20px;
+            margin-top: 0;
+        }
+        input[type="text"],
+        input[type="number"],
+        input[type="password"] {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            margin: 12px 0;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+        input[type="checkbox"] {
+            margin-right: 8px;
+        }
+        button {
+            background: #3155a4;
+            color: white;
+            border: none;
+            padding: 11px 18px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 15px;
+        }
+        button:hover {
+            background: #223d7d;
+        }
+        .result {
+            margin-top: 15px;
+            padding: 12px;
+            background: #f0f4ff;
+            border-radius: 6px;
+            overflow-wrap: anywhere;
+            line-height: 1.7;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+        }
